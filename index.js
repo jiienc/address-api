@@ -16,7 +16,7 @@ try {
 
 app.use(cors({ credentials: true, origin: 'http://localhost:5173' }));
 app.use(express.json());
-app.use(router);
+app.use('/address-api', router);
 
 const port = parseInt(process.env.PORT) || 5000;
 app.listen(port, () => {
