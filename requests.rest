@@ -1,0 +1,5 @@
+GET http://localhost:3000/provinces
+
+###
+
+GET http://localhost:3000/localhost:3000/regencies/11
